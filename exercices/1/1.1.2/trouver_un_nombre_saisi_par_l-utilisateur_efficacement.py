@@ -1,6 +1,6 @@
 from math import *
 
-List = list(range(1, 100))
+List = list(range(1, 101))
 
 try:
     Solution = int(input('Entrez un nombre de 1 à 100: '))
@@ -26,4 +26,5 @@ while i < Len:
         print("Tentative",Try," :",Dictoto)
     else:
         Len = Dictoto
+        print("Tentative :",Len," :",Dictoto)
     Dictoto = floor((i+Len)/2) 
