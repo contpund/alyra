@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+value = input("Enter tour value: ")
+
 def facto(n):
     init = n
     res = n
@@ -7,3 +10,6 @@ def facto(n):
         res = res * (n - 1)
         n = n-1 
     return print( "Nombre d'opérations effectué ",i,"\nLe factorielle de ",init," est :", res)
+
+
+facto(int(value))
